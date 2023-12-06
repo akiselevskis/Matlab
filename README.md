@@ -17,4 +17,7 @@ Projekts - polinomial estimate
 **edit** (Atver script failu) \
 save grafika_likne.mat x y (Izveido failu grafika_likne.mat, kuru var ielādēt editorā ar "**load**") \
 **legend** \
+edit failus saglabā ar **.m** pagarinājumu \
+**splain** grafika izlidzināšanas instruments. \ 
 
+edit faili uzrāda kļūdas terminālī, tāpēc labāk ir ierakstīt edit faila vārdu (bez .m) termināli, nevis spiest "play" \
