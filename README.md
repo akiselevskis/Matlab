@@ -29,3 +29,5 @@ semilogy ir uz y ass \
 loglog ir logaritmiskā skala uz abām asīm \
 
 Var izmantot liveditor failus vieglākai koda vizualizācijai \
+
+'parent' mainigais. paceļ vienu zaru augstāk.
