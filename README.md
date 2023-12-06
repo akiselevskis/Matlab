@@ -30,4 +30,19 @@ loglog ir logaritmiskā skala uz abām asīm \
 
 Var izmantot liveditor failus vieglākai koda vizualizācijai \
 
+### Marķieri
 'parent' mainigais. paceļ vienu zaru augstāk.
+
+### Simboliskā matemātika matlabā
+ar sym veido simboliskās matricas! \
+```
+a = sym('a', [2, 3])
+```
+### Atvasināšana
+syms x (definē x kā simbolisko mainīgo)
+**diff**(x^2) (atvasina) \
+diff(z, a) = atvasina z funckiju, kur x = mainigais un a = const!!
+### Integrēšana
+**int**
+
+**simplify** (priekš zināmām formulām, nevis tās atšifrējuma
