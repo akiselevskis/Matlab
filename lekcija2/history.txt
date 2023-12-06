@@ -1,0 +1,75 @@
+%-- 12/06/2023 04:06:12 PM --%
+ls
+mkdir lekcija2
+cd lekcija2
+gca
+ginput(7);
+x
+[x,y] = ginput(7)
+plot(x,y)
+plot(x,y,'o')
+edit
+save grafika_likne.mat x y
+%-- 12/06/2023 04:23:06 PM --%
+load('grafika_likne.mat')
+edit
+mani_splaini
+edit
+%-- 12/06/2023 05:09:56 PM --%
+h=plot(t,y)
+get(h)
+ha = get(h, 'parent')
+ha
+max(sin(x))
+max(sin)
+sin
+y = sin(x)
+sin(pi)
+sin(2pi)
+sin(2*pi)
+sin(0*pi)
+sin(1*pi)
+sin(2*pi)
+sin(pi/2)
+sin(pi)
+%-- 12/06/2023 06:35:17 PM --%
+pointerLocation
+'PointerLocation'
+pointerLocation
+'PointerLocation'
+get (hr, 'PointerLocation')
+%-- 12/06/2023 06:56:16 PM --%
+A*A
+format short
+A*A
+A.*A
+%% kā definēt simbolisko mainīgo
+%1.
+a = sym('a');
+sqrt(a^2)
+a = sym('a', 'positive')
+% 2.veids
+%% 2.veids
+a = sym('a', [2, 3])
+%% 3.veids
+syms a11 a12 a21 a22
+A = [a11 a12; a21 a22]`
+A = [a11 a12; a21 a22]'
+syms a11 a12 a21 a22 real
+A = [a11 a12; a21 a22]'
+%% Atvasināšana
+syms x
+diff(x^2)
+syms x y
+z = x^2*y^3
+2^3*4^5
+diff(z,y)
+diff(x^2)
+syms a
+syms x
+z = diff(a*x^2)
+a = const
+z = a*x^2
+diff(z, x)
+diff(z, a)
+%-- 12/06/2023 07:41:20 PM --%
