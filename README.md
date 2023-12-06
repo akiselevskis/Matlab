@@ -24,8 +24,8 @@ edit faili uzrāda kļūdas terminālī, tāpēc labāk ir ierakstīt edit faila
 
 Uzspiežot uz koda daļas starp divām %%, var palaist tikai to daļu! Ar CTRL + ENTER. \
 
-**semilogx**(x,y,'o-') (attēlot datus ar logaritmisko skalu uz x ass)
-semilogy ir uz y ass
-loglog ir logaritmiskā skala uz abām asīm
+**semilogx**(x,y,'o-') (attēlot datus ar logaritmisko skalu uz x ass) \
+semilogy ir uz y ass \
+loglog ir logaritmiskā skala uz abām asīm \
 
-Var izmantot liveditor failus vieglākai koda vizualizācijai
+Var izmantot liveditor failus vieglākai koda vizualizācijai \
