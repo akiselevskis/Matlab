@@ -46,3 +46,12 @@ diff(z, a) = atvasina z funckiju, kur x = mainigais un a = const!!
 **int**
 
 **simplify** (priekš zināmām formulām, nevis tās atšifrējuma
+
+## 3. lekcija
+3 veidi kā izmantot mathlab: command window, Editor Script, Editor Function.
+shg to make plot pop up in front!
+Editor failu nedrīkst saukt matlab funckiju vārdo! Nedrīkt "sin.m" vai "plot.m"
+Alt+enter to run
+Function editor is the Editor script, but you start with function *function1*(f), \
+and then launch it with function(3), piemēram, lai palaistu to failu, kur f argumenta vietā būs 3.
+Funckija neietekmē workspace argumentus!!!, jo tā izmanto iekšējo (lokālo) mainīgo tipu (tāpat kā C)
