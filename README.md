@@ -70,3 +70,14 @@ if nargin==0
 end
 ```
 nargout = number of input arguments \
+
+### Funkcijas
+Funckijas var nozīmēt programmas beigās (un nedeklarēt) un tad tekstā vnk ielikt nosaukumu bez .m.
+### Anonīmā funkcija
+```
+h =  @(t) sin(t).^2
+un tad vēlāk
+h(pi/6) lai iegūtu rezultātu
+```
+Anonīma, bet rokturim ir nosaukums h.
+
