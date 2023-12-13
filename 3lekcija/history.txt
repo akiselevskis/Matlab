@@ -1,0 +1,89 @@
+%-- 12/13/2023 04:15:48 PM --%
+cd desktop
+cd Desktop
+mkdir 3lekcija
+cd 3lekcija
+%% 5. seminars
+%% funkcijas un skripti
+t = 0:0.01:3;
+f = 1;
+A0 = 0; A = 1;
+plot(t,y)
+f = 2;
+y = A0 + A*sin(2*pi*f*t);
+plot(t,y)
+f = 0.5
+y = A0 + A*sin(2*pi*f*t);
+plot(t,y)
+shg
+edit
+edit1
+help edit1
+y = A0 + A*sin(2*pi*f*t);
+%% šis ir skripta faila piemērs
+% to var palaist rakstt edit1 komandlogā
+% Date Modified 13_12_2023
+t = 0:0.01:3;
+f = 0.4;
+A0 = 0; A = 1;
+y = A0 + A*sin(2*pi*f*t);
+plot(t,y)
+shg %show  graph*
+fubnckija1(3)
+funckija1(3)
+function(3)
+function1(3)
+function1(0.1)
+clear
+edit1
+clear
+function1(1)
+function1(2)
+stop
+dbquit
+function1(0.665);
+dbquit
+function1(0.665);
+y2 = function1(0.665);
+[y2,t2]=function1(0.665);
+function1(0.665, 2);
+function1
+function1;
+function1
+function1;
+[y,t] = function1(10,10);
+%-- 12/13/2023 05:31:17 PM --%
+cd Desktop
+cd 3lekcija
+function1
+%% anonīmā funkcija
+h =  @(t) sin(t).^2
+h(pi/6)
+h2 = @funkcija1
+integral(@sin,5,6)
+integral(@sin,0,3.14)
+clear
+z
+x
+y
+R
+z
+Z
+z
+3<5
+3>5
+t = [0 1 2 3 4 5 6]
+tf = t<2
+tf = t>2
+t(tf2)=10
+t(tf2)
+t(tf)
+t(tf)=10
+%-- 12/13/2023 06:08:03 PM --%
+h_ui = uicontrol('String', "Hello", 'Callback',"test")
+Seminars_6
+guide
+%-- 12/13/2023 07:12:13 PM --%
+mans_interfeiss
+guide mans_interfeiss
+mans_interfeiss
