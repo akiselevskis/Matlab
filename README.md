@@ -94,3 +94,7 @@ plot3(X,Y,real(Z))
 grid
 shg
 ```
+### Practical
+**mesh**
+**sphere**
+**uicontrol;** (makes a button!!!)
