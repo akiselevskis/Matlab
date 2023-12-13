@@ -80,4 +80,17 @@ un tad vēlāk
 h(pi/6) lai iegūtu rezultātu
 ```
 Anonīma, bet rokturim ir nosaukums h.
-
+Fun program
+```
+x=(-1:0.01:1);
+y=(-1:0.01:1);
+R = 1;
+z = sqrt(R.^2-(x.^2+y.^2));
+plot3(x,y,real(z))
+grid
+[X,Y] = meshgrid(x,y);
+Z = sqrt(R.^2-(X.^2+Y.^2));
+plot3(X,Y,real(Z))
+grid
+shg
+```
