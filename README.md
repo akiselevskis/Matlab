@@ -53,5 +53,20 @@ shg to make plot pop up in front!
 Editor failu nedrīkst saukt matlab funckiju vārdo! Nedrīkt "sin.m" vai "plot.m"
 Alt+enter to run
 Function editor is the Editor script, but you start with function *function1*(f), \
-and then launch it with function(3), piemēram, lai palaistu to failu, kur f argumenta vietā būs 3.
-Funckija neietekmē workspace argumentus!!!, jo tā izmanto iekšējo (lokālo) mainīgo tipu (tāpat kā C)
+and then launch it with function(3), piemēram, lai palaistu to failu, kur f argumenta vietā būs 3. \
+Funckija neietekmē workspace argumentus!!!, jo tā izmanto iekšējo (lokālo) mainīgo tipu (tāpat kā C) \
+**clear** lai izdzēstu visus workspace argumentus
+
+click on number to place breakpoint
+dbquit to remove breakpoint
+
+function [y]=function1(f) (y kļūs par atgriezto vērtību!) \
+nargin = number of input arguments \
+if nargin==0 (ja es neievietoju argumentus, argumentu vērtība ir šāda...)
+```
+function [y,t]=function1(f,A)
+if nargin==0
+  f=1;A=1;
+end
+```
+nargout = number of input arguments \
