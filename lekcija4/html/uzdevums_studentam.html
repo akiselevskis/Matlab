@@ -1,0 +1,123 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>uzdevums_studentam</title><meta name="generator" content="MATLAB 9.14"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2023-12-20"><meta name="DC.source" content="uzdevums_studentam.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">K&#257; &#291;ener&#275;t uzdevumu studentam</a></li><li><a href="#6">K&#257; ielikt bildi</a></li><li><a href="#7">Te var likt bullets (ar zvaignz&#299;t&#275;m)</a></li><li><a href="#8">jeb ar&#299;</a></li></ul></div><h2 id="1">K&#257; &#291;ener&#275;t uzdevumu studentam</h2><p>Matlabs &#316;aus &#291;ener&#275;t atskaites no j&#363;su programm&#257;m te b&#363;s piem&#275;rs</p><pre class="codeinput"><span class="keyword">for</span> i = 1:3
+</pre><pre class="codeinput"><span class="keyword">switch</span> randi(3)
+    <span class="keyword">case</span> 1
+        disp(<span class="string">'K&#257; izveidot matricu'</span>)
+        A = [randi(10),randi(10);randi(10) randi(10)]
+    <span class="keyword">case</span> 2
+        fprintf(<span class="string">'K&#257; izveidot vektoru '</span>)
+        fprintf(<span class="string">'no %d l&#299;dz %d ar soli %d'</span>, randi(3),<span class="keyword">...</span>
+            randi(3)+10,randi(3))
+    <span class="keyword">case</span> 3
+        w = {<span class="string">'sin'</span>, <span class="string">'cos'</span>, <span class="string">'tan'</span>};
+        fprintf(<span class="string">'izr&#275;&#311;in&#257;t %s(pi/3)'</span>, w{randi(3)})
+<span class="keyword">end</span>
+</pre><pre class="codeoutput">K&#257; izveidot vektoru no 1 l&#299;dz 13 ar soli 3</pre><pre class="codeoutput">K&#257; izveidot vektoru no 1 l&#299;dz 13 ar soli 3</pre><pre class="codeoutput">K&#257; izveidot vektoru no 3 l&#299;dz 11 ar soli 3</pre><pre class="codeinput"><span class="keyword">end</span>
+plot(1,2,<span class="string">'*'</span>)
+</pre><img vspace="5" hspace="5" src="uzdevums_studentam_01.png" alt=""> <pre class="codeinput">plot(3,4,<span class="string">'o'</span>)
+</pre><img vspace="5" hspace="5" src="uzdevums_studentam_02.png" alt=""> <h2 id="6">K&#257; ielikt bildi</h2><p><img vspace="5" hspace="5" src="../atteels.jpg" alt=""> </p><h2 id="7">Te var likt bullets (ar zvaignz&#299;t&#275;m)</h2><div><ul><li>bullet 1</li><li>bullet 2</li></ul></div><h2 id="8">jeb ar&#299;</h2><div><ol><li>pirmais</li><li>otrais</li></ol></div><p>&#353;is b&#363;s no n&#257;kam&#257;s rindas vair&#257;k inform&#257;cijas <b>doc publish</b></p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Kā ģenerēt uzdevumu studentam
+% Matlabs ļaus ģenerēt atskaites no jūsu programmām
+% te būs piemērs
+for i = 1:3
+switch randi(3)
+    case 1
+        disp('Kā izveidot matricu')
+        A = [randi(10),randi(10);randi(10) randi(10)]
+    case 2
+        fprintf('Kā izveidot vektoru ')
+        fprintf('no %d līdz %d ar soli %d', randi(3),...
+            randi(3)+10,randi(3))
+    case 3
+        w = {'sin', 'cos', 'tan'};
+        fprintf('izrēķināt %s(pi/3)', w{randi(3)})
+end
+%%
+end
+plot(1,2,'*')
+%%
+plot(3,4,'o')
+%% Kā ielikt bildi
+%
+% <<../atteels.jpg>>
+%
+%% Te var likt bullets (ar zvaignzītēm)
+% * bullet 1
+% * bullet 2
+%% jeb arī
+% # pirmais
+% # otrais
+%%
+% šis būs no nākamās rindas
+% vairāk informācijas *doc publish*
+##### SOURCE END #####
+--></body></html>

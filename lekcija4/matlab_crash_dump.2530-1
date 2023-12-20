@@ -1,0 +1,61 @@
+
+--------------------------------------------------------------------------------
+          Segmentation violation detected at 2023-12-20 18:27:25 +0200
+--------------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding           : Disabled - No sandbox or build area path
+  Crash Mode               : continue (default)
+  Default Encoding         : UTF-8
+  Deployed                 : false
+  Desktop Environment      : GNOME
+  GNU C Library            : 2.31 stable
+  Graphics Driver          : Brian Paul Mesa X11 Version 2.1 Mesa 17.1.3
+  Graphics card 1          : 0x8086 ( 0x8086 ) 0x3e90 Version 0.0.0.0 (0-0-0)
+  Java Version             : Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  MATLAB Architecture      : glnxa64
+  MATLAB Entitlement ID    : 2097475
+  MATLAB Root              : /usr/local/MATLAB/R2023a
+  MATLAB Version           : 9.14.0.2337262 (R2023a) Update 5
+  OpenGL                   : software
+  Operating System         : Ubuntu 20.04.6 LTS
+  Process ID               : 2530
+  Processor ID             : x86 Family 6 Model 158 Stepping 10, GenuineIntel
+  Session Key              : 3dcf4aec-9d68-4ecb-869c-4fb69238efd9
+  Window System            : The X.Org Foundation (12013000), display :0
+
+Fault Count: 1
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'CrBrowserMain' id 139880674866944
+
+Register State (from fault):
+  RAX = 0000000000000000  RBX = 00007f3957f26d50
+  RCX = 0000000000000000  RDX = 0000000000000002
+  RSP = 00007f3881efa650  RBP = 00007f3881efa660
+  RSI = 00007f3890db89a8  RDI = 0000000000000000
+
+   R8 = aaaaaaaaaaaaaaaa   R9 = 00007f393d04e650
+  R10 = 0000000000000004  R11 = 00000000003695ba
+  R12 = 00007f3881efa6c0  R13 = 0000000000000000
+  R14 = 00007f393c99df00  R15 = 00007f3890dba040
+
+  RIP = 00007f388d67c5bf  EFL = 0000000000010206
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00007f388d67c5bf     /usr/local/MATLAB/R2023a/bin/glnxa64/libcef.so+141841855
+[  1] 0x00007f388ccb9aaf     /usr/local/MATLAB/R2023a/bin/glnxa64/libcef.so+131607215
+[  2] 0x00007f3887a685ab     /usr/local/MATLAB/R2023a/bin/glnxa64/libcef.so+45290923
+[  3] 0x00007f388a8ac460     /usr/local/MATLAB/R2023a/bin/glnxa64/libcef.so+93803616
+[  4] 0x00007f388a8bfe2a     /usr/local/MATLAB/R2023a/bin/glnxa64/libcef.so+93883946
+[  5] 0x00007f388a8bfa4d     /usr/local/MATLAB/R2023a/bin/glnxa64/libcef.so+93882957
+[  6] 0x00007f388a8c03d2     /usr/local/MATLAB/R2023a/bin/glnxa64/libcef.so+93885394
+[  7] 0x00007f388a86908b     /usr/local/MATLAB/R2023a/bin/glnxa64/libcef.so+93528203
+[  8] 0x00007f38ace0f17d         /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0+00336253 g_main_context_dispatch+00000637
+[  9] 0x00007f3881efa7a0                                   <unknown-module>+00000000
+

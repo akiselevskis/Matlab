@@ -1,0 +1,44 @@
+%-- 12/20/2023 04:02:46 PM --%
+diary lekcija4.m
+%% cikli matlabā
+disp('Sveiks')
+%% while cikls
+cikli.m
+cikli
+CP ../EIMDR/leenaa_programma.m cikli.m.
+!CP ../EIMDR/leenaa_programma.m cikli.m.
+!cp ../EIMDR/leenaa_programma.m .
+tic,leenaa_programma,toc
+tic,leenaa_programma2,toc
+tic,leenaa_programma3,toc
+leenaa_programma
+reizinasanas_aatrums
+repmat([1 2; 3 4],2,3)
+A = repmat([1 2; 3 4],2,3)
+reshape(A, [12 2])
+%% Kā ģenerēt uzdevumu studentam
+sin(pi/3)
+3:3:12
+3:3:11
+% atskaišu ģenerātors
+figure
+publish('lekcija1_history','format','pdf','font','Arial')
+%-- 12/20/2023 06:27:51 PM --%
+whos d
+A(2)
+A{2}
+student.name
+student(2).name
+student(2).courcse
+student(2).cource
+student(2).course
+syms x
+diff(x^2)
+methods(programm)
+methods(a)
+methods(x)
+%-- 12/20/2023 07:19:14 PM --%
+edit
+end diary
+End diary
+end diary
