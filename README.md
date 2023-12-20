@@ -250,3 +250,24 @@ switch randi(3)
         fprintf('izrēķināt %s(pi/3)', w{randi(3)})
 end
 ```
+### Atskaites izveide
+text editor raksta
+Tad publish - publish. Lekcija4 mapē redzams piemērs!
+### Datu tipi matlabā 
+**whos** lai redzētu workspace mainīgo informāciju
+Matlab arī var apskatīt ASCII vērtības.
+Piemēram:
+```
+char(97)
+name = 'Maris';
+sum(name)
+```
+Šī programma izdos "a" un 508. a ASCII vērtība ir 97 un Maris ASCII vērtību summa ir 508.
+### Šūnu matricas!
+```
+g = ['a', 'b', 'c', 'd', 'e']
+g(1) %izdod a
+h = {'Māris', 'Pēteris', 'Jānis'}
+h{2} %izdod Pēteris
+```
+Šūnu matricas var turēt arī matricas! (un vektorus)
