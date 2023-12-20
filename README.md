@@ -271,3 +271,31 @@ h = {'Māris', 'Pēteris', 'Jānis'}
 h{2} %izdod Pēteris
 ```
 Šūnu matricas var turēt arī matricas! (un vektorus)
+### Strings
+```
+b = "Hello";
+c = "Pēteris"
+```
+### Datu struktūra
+Vienums, kas glabā kopīgu informāciju
+```
+%% Datu struktūra (struct)
+student.name = 'Māris';
+student.course = 1;
+student. programm = 'ēlectronic';
+student
+% Try to launch this
+```
+ļoti noderīgi. \
+Var taisīt arī struktūru masīvus: \
+Ieliekto *student(2).name = 'Jānis'*, struct būs diviem objektiem!
+### tabula (kurā izmanto struktūras)
+*Table* pielietojums
+```
+%% tabula
+name = ["Māris";"Jānis";"Pēteris"];
+programm = ["electronic";"chemistry";"physics"];
+math = [9; 10; 4];
+table(name, programm, math)
+% launch this
+```
