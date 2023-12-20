@@ -117,3 +117,13 @@ for i = [1 3 5]
     fprintf('i=%d\n', i) %tāpat kā C
 end
 ```
+For (ar jēgu):
+```
+name = {'Viktorija', 'Ineta', 'Artūrs', 'Darja'}
+for i = name
+    disp(['Sveiks, ',i{1}])
+    %fprintf('Sveiks, %s\n', i{1})
+    %fprintf versija arī strādā
+end
+```
+Nosacījumu operatori (if):
