@@ -137,5 +137,22 @@ for i = 1:length(name)
     else
         disp(['Sveika, ',name{i}])    %if beidzas ar end!
     end
+```
+Switch:
+```
+name = {'Viktorija', 'Ineta', 'Artūrs', 'Darja'}
+dzimums = {'s', 's', 'v', 's'};
+for i = 1:length(name)
+    switch dzimums{i}
+        case 'v'
+            disp(['Sveiks, ',name{i}])
+        case 's'
+            disp(['Sveika, ',name{i}])
+    end
+end
+```
+Jebkur tekstā ieliec error('kļudas imitacija'), lai programma beigtu strādāt tajā rindā un izdotu kļūdu! \
+Try/catch/end (kā Pitonā):
+
 end
 % drikst string = string tikai ja ir vienāds garums starp variantiem!
