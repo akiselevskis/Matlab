@@ -98,3 +98,22 @@ shg
 **mesh**
 **sphere**
 **uicontrol;** (makes a button!!!)
+
+## 4. lekcija
+### Cikli
+While:
+```
+a = 10;
+while (a>1)
+disp('Sveiks')
+a = a-1;
+end
+```
+For:
+for i = [1 3 5], ir tas pats, kas for i =[1:10]
+```
+for i = [1 3 5]
+    disp('Esi sveiks')
+    fprintf('i=%d\n', i) %tāpat kā C
+end
+```
