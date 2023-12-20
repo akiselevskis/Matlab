@@ -290,12 +290,41 @@ student
 Var taisīt arī struktūru masīvus: \
 Ieliekto *student(2).name = 'Jānis'*, struct būs diviem objektiem!
 ### tabula (kurā izmanto struktūras)
-*Table* pielietojums
+*Table* pielietojums:
 ```
 %% tabula
 name = ["Māris";"Jānis";"Pēteris"];
 programm = ["electronic";"chemistry";"physics"];
 math = [9; 10; 4];
-table(name, programm, math)
+t = table(name, programm, math)
 % launch this
+```
+Lai no t table izvilktu datus, raksta: *t.subjectyouwant* (piem. t.math).
+### Simboliskie elementi - atļauj diff un integrate funkcijas
+**syms** x
+**methods** var izmantot lai redzētu katram datu tipam iespējamās, izmantojamās funkcijas un darbības:
+methods(a) -> kad a ir definēts kā int, parādīs visas int funkcijas. \
+methods(x) -> kad x ir definēts kā syms, parādīs pilnīgi citādākas metodes
+**summary** (īss apraksts par datu tipu)
+**class(A)** lai redzētu datu tipu. (Piem. ja A class ir double, plot strādās. Ja kkas dīvains -> nestrādās)
+### HPC lekcija
+for ciklu var aizstāt ar **parfor** - paralel for. Parfor izmanto for uz vairākiem procesora kodoliem! Tā nosaukums - parallel pool! \
+Uz katru izmantoto kodolu tiek palaists jauns matlab. \
+Šī funkcija izpildīsies 10 sekundes:
+```
+tic
+for i = 1:10
+    pause(1)
+    disp(i)
+end
+toc
+```
+Šī funkcija izpildīsies 5 sekundes jo tiks izmantoti 2 kodoli reizē!!!:
+```
+tic
+parfor i = 1:10
+    pause(1)
+    disp(i)
+end
+toc
 ```
