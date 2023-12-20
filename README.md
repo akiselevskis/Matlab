@@ -233,7 +233,7 @@ Tur var redzēt lines that take the most time lai labotu kļūdainas vai garas r
 **repmat**
 **reshape**
 **randi(x)** x vietā liek ciparu, no kura randi izvēlas nejauši!
-Matlabā var turpināt rakstīt nākošajā rindā, iepriekšējā beigās uzrakstot ... (3 punktus).
+Matlabā var turpināt rakstīt nākošajā rindā, iepriekšējā beigās uzrakstot ... (3 punktus). \
 Interesanta programma, kas apkopo visas lekcijas zināšanas:
 ```
 %% Kā ģenerēt uzdevumu studentam
