@@ -101,7 +101,7 @@ shg
 
 ## 4. lekcija
 ### Cikli
-While:
+**While:**
 ```
 a = 10;
 while (a>1)
@@ -109,7 +109,7 @@ disp('Sveiks')
 a = a-1;
 end
 ```
-For:
+**For:**
 for i = [1 3 5], ir tas pats, kas for i =[1:10]
 ```
 for i = [1 3 5]
@@ -126,7 +126,7 @@ for i = name
     %fprintf versija arī strādā
 end
 ```
-Nosacījumu operatori (if):
+**Nosacījumu operatori (if):**
 ```
 name = {'Viktorija', 'Ineta', 'Artūrs', 'Darja'}
 %dzimums = 'ssvs';
@@ -137,8 +137,10 @@ for i = 1:length(name)
     else
         disp(['Sveika, ',name{i}])    %if beidzas ar end!
     end
+end
+% drikst string = string tikai ja ir vienāds garums starp variantiem!
 ```
-Switch:
+**Switch:**
 ```
 name = {'Viktorija', 'Ineta', 'Artūrs', 'Darja'}
 dzimums = {'s', 's', 'v', 's'};
@@ -152,7 +154,21 @@ for i = 1:length(name)
 end
 ```
 Jebkur tekstā ieliec error('kļudas imitacija'), lai programma beigtu strādāt tajā rindā un izdotu kļūdu! \
-Try/catch/end (kā Pitonā):
+**Try/catch/end** (kā Pitonā):
+```
+%% Try/catch/end
+try %ja šis nestrādā
+    disp('Pamēģināsim for cikli7')
+    error('Ņo')
 
+catch %izcsauc šo
+    disp('Diemžēl tas nestrādā')
+    disp('Šī gan strādā')
 end
-% drikst string = string tikai ja ir vienāds garums starp variantiem!
+```
+### Programmas paātrināšana
+tic
+toc -> lai uzzinātu iepriekšējās programmas izpildes laiku!!!
+```
+tic,leenaa_programma,toc
+```
