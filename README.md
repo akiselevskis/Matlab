@@ -127,3 +127,15 @@ for i = name
 end
 ```
 Nosacījumu operatori (if):
+```
+name = {'Viktorija', 'Ineta', 'Artūrs', 'Darja'}
+%dzimums = 'ssvs';
+dzimums = {'s', 's', 'v', 's'};
+for i = 1:length(name)
+    if dzimums{i} == 'v' %parast izmanto strcmp(dzimums{i}, 'v') vai strmatch (string match)
+        disp(['Sveiks, ',name{i}])
+    else
+        disp(['Sveika, ',name{i}])    %if beidzas ar end!
+    end
+end
+% drikst string = string tikai ja ir vienāds garums starp variantiem!
