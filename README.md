@@ -228,3 +228,25 @@ k = 1:N; %pie visām vektoru vērtībām jāliek punkts, lai paātrinātos (un j
     sT(k)=mod(k,T*N/W)<(d*T*N/W);
     x(k) = sT(k).*sin(2*pi*f*t(k))
 ```
+Lai redzētu izpildes laiku var izmantot run&time zem run. \
+Tur var redzēt lines that take the most time lai labotu kļūdainas vai garas rindas! \
+**repmat**
+**reshape**
+**randi(x)** x vietā liek ciparu, no kura randi izvēlas nejauši!
+Matlabā var turpināt rakstīt nākošajā rindā, iepriekšējā beigās uzrakstot ... (3 punktus).
+Interesanta programma, kas apkopo visas lekcijas zināšanas:
+```
+%% Kā ģenerēt uzdevumu studentam
+switch randi(3)
+    case 1
+        disp('Kā izveidot matricu')
+        A = [randi(10),randi(10);randi(10) randi(10)]
+    case 2
+        fprintf('Kā izveidot vektoru ')
+        fprintf('no %d līdz %d ar soli %d', randi(3),...
+            randi(3)+10,randi(3))
+    case 3
+        w = {'sin', 'cos', 'tan'};
+        fprintf('izrēķināt %s(pi/3)', w{randi(3)})
+end
+```
